@@ -1,0 +1,503 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar,.nav-links{
+    display: flex;
+
+}
+.navbar{
+    margin: 1rem 5rem;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.left-nav{
+    display: flex;
+    align-items: center;
+}
+.left-nav img{
+    height: 40px;
+}
+
+.left-nav-search{
+    width: 16rem;
+    height: 2rem;
+    display: flex;
+    align-items: center; 
+    margin: 1rem;
+    background-color:rgb(225, 240, 248);
+    border: 1px solid white;
+    padding-left: 0.8rem;
+}
+.left-nav-search input{
+    border-style: none;
+    width: 100%;
+    padding-left: 0.8rem;
+    background-color:rgb(225, 240, 248);
+    
+}
+
+.nav-links{
+    border-right: 1px solid black;
+    margin-left: 25rem;
+   
+}
+.nav-links > li{
+    margin: 12px;
+    list-style: none;
+   
+}
+.nav-links li a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(122, 101, 101);
+}
+.notification1,.notification2{
+    background-color: rgb(135, 21, 21);
+    color: white;
+    height: 1.2rem;
+    width: 0.7rem;
+    border-radius: 0.6rem;
+    position: absolute;
+}
+.notification1{
+    right: 21%;
+    top: 0.9rem;
+}
+.notification2{
+    left: 72%;
+    top: 0.9rem;
+}
+.right-nav{
+    display: flex;
+    flex-direction: column;
+}
+.right-nav img{
+        height: 2.2rem;
+        border-radius: 2rem;
+       
+}
+
+.right1 p{
+    text-align: center;
+}
+
+.main{
+background-color:rgb(240, 237, 237);
+margin: 1rem 1rem;
+padding: 2rem 5.5rem;
+height: 80rem;
+display: flex;
+justify-content: space-evenly;
+}
+.left-pannel,.right-pannel{
+    height: 42rem;
+}
+.left-pannel{
+   background-color:white;
+   width: 15rem;
+   border-radius: 0.6rem;
+}
+.middle-pannel{
+    
+    border-top-right-radius: 0.4rem;
+    border-top-left-radius: 0.4rem;
+    height: 64rem;
+    width: 39rem;
+    
+
+}
+.right-pannel{
+    
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    width: 17rem;
+    
+}
+.post{
+    border: 1px solid black;
+    border-radius: 1rem;
+    height: 7.4rem;
+}
+
+.middle,.last{
+    border: 1px solid black;
+    height: 31.4rem;
+    background-color: white;
+   
+}
+.middle{
+    margin-top: 1.5rem;
+    
+}
+.last{
+    margin-top: 1rem;
+    height: 36rem;
+    
+}
+/*                   Left Pannle          */
+.background img{
+    height: 4rem;
+    width: 14.91rem;
+    border-top-right-radius: 0.6rem;
+    border-top-left-radius: 0.6rem;
+}
+.left-upper{
+    border: 1px solid black;
+    height: 20.5rem;
+    border-radius: 0.6rem;
+} 
+.profile img{
+    height: 4rem;
+    border: 1px solid white;
+    border-radius: 12rem;
+    margin-left: 5rem;
+    position: relative;
+    bottom: 3rem;
+    
+}  
+
+.content1 h4{
+    position: relative;
+    bottom: 2.6rem;
+    text-align: center;
+}
+.content1 p{
+    font-size: small;
+    color: rgb(47, 46, 46);
+    position: relative;
+    bottom: 2rem;
+    text-align: center;
+    border-bottom: 1px solid rgb(57, 56, 56); 
+}
+.content2 p{
+    color: rgb(91, 85, 85);
+   font-size: small;
+   position: relative;
+   bottom: 1.7rem;
+   margin-left: 0.8rem;
+  
+
+}
+.content2 h5{
+    margin-left: 13.5rem;
+    position: relative;
+    bottom: 2.6rem;
+}
+.content2 h6{
+    font-size: 0.7rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    bottom: 2.5rem;
+    margin-left: 0.8rem;
+}
+.content2-1 p{
+   position: relative;
+   bottom: 1.3rem;
+   margin-left: 0.8rem;
+   
+  
+}
+
+.content2-1 h5{
+    margin-left: 13.4rem;
+    position: relative;
+    bottom: 2.4rem;
+}
+.content2{
+    border-bottom: 1px solid rgb(57, 56, 56); 
+}
+.content3 p{
+    color: rgb(47, 46, 46);
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 1.7rem;
+    margin-left: 0.8rem;
+
+}
+.content3 h6{
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 1.7rem;
+    margin-left: 0.8rem;
+
+}
+.content3{
+    border-bottom: 1px solid  rgb(57, 56, 56); 
+}
+.content4{
+    margin-left: 0.8rem;
+    font-size: large;
+    margin-top: 0.6rem;
+}
+.left-lower{
+    
+    margin-top: 1.7rem;
+    height: 20.5rem;
+    border: 1px solid black;
+    border-radius: 0.6rem;
+   
+}
+.content5  h6,.content5 p{
+    margin-left: 0.8rem;
+    margin-top: 0.4rem;
+}
+.content5 h6{
+    font-size: 0.9rem;
+    color: rgb(91, 85, 85);
+   
+}
+.content5 p{
+    color: rgb(91, 85, 85);
+}
+.content6 h6{
+    color: rgb(119, 119, 177);
+    font-size: 0.9rem;
+    
+}
+.content6 h6{
+    margin-left: 0.8rem;
+    margin-top: 0.7rem;
+}
+.content6 p{
+    margin-left: 0.8rem;
+    color: rgb(91, 85, 85);
+    margin-top: 0.5rem;
+}
+.content7 h6{
+    color: rgb(119, 119, 177);
+    font-size: 0.9rem;
+    margin-left: 0.8rem;
+    margin-top: 0.6rem;
+
+}
+.content7 p{
+    margin-top: 0.6rem;
+    margin-left: 0.8rem;
+    color: rgb(91, 85, 85);
+}
+/*              Middle Pannle    */
+
+.post{
+    border-radius: 0.5rem;
+    background-color: white;
+}
+.post img{
+    height: 2.8rem;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.post input{
+    border: 1px solid rgb(48, 46, 46);
+    border-radius: 2rem;
+    width: 31rem;
+    height: 2rem;
+    position: relative;
+    bottom: 1.2rem;
+    padding: 0.4rem;
+}
+.post-data{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+   
+}
+.post-data li a{
+    text-decoration: none;  
+}
+.middle-1{
+    display: flex;
+    margin-top: 0.6rem;
+}
+.middle-1 img{
+    height: 3.9rem;
+    margin-left: 0.6rem;
+}
+.middle-1-1{
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 0.8rem;
+    margin-top: 0.4rem
+}
+.middle-1-1 h5,.dots{
+    font-size: 1.1rem;
+}
+.middle-1-1 p{
+    font-size: small;
+    color: rgb(91, 85, 85);
+}
+.dots{
+    margin-left: 30.9rem;
+    position: relative;
+    bottom: 4rem;
+}
+.middle-2 img{
+    height: 21rem;
+    width: 38.9rem;
+}
+.middle-2-1{
+    display: flex;
+    margin-top: 0.4rem;
+    padding-left: 0.8rem;
+    border-bottom: 1px solid rgb(73, 72, 72);
+   
+}
+.middle-2-1-1{
+   justify-content: space-evenly;
+}
+.middle-2-1 p{
+    margin-left: 0.7rem;
+    color: rgb(91, 85, 85);
+   
+}
+.middle-3 ul {
+    display: flex;
+    margin-top: 0.8rem;  
+}
+.middle-3 ul li{
+    list-style: none;
+    margin-left: 0.7rem; 
+    justify-content: flex-start   
+   
+}
+.middle-3 ul li a{
+    color: rgb(57, 55, 55);
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.1rem; 
+  
+}
+.gap{
+    margin-left: 1rem;
+}
+.last-1 {
+    margin-left: 0.8rem;
+    font-size: 1rem;
+    color: rgb(14, 13, 13);
+}
+
+/*         Right Pannle      */
+
+.right-upper{
+    background-color:white;
+    height: 16rem;
+    border:1px solid black ;
+    border-radius: 0.4rem;
+}
+.data-1{
+
+    display: flex;
+    margin-top: 0.4rem;
+}
+.data-1 h5{
+    margin-left: 0.4rem;
+}
+.data-1 svg{
+    margin-left: 9.6rem;
+}
+.data-2{
+    display: flex;
+    margin-top: 0.8rem;
+    
+}
+.data-2 svg,.data-2 h5{
+    margin-left: 0.6rem;
+}
+.data-2-1 p{
+    font-size: small;
+    color: rgb(91, 85, 85);
+    margin-left: 1.7rem;
+
+}
+.data-2 h5{
+    color: rgb(54, 43, 43);
+}
+.right-middle{
+    height: 10rem;
+    margin-top: 1rem;
+    border: 1px solid black;
+    background-color:white;
+    border-radius: 0.4rem;
+}
+.data-3{
+    display: flex; 
+    margin-top: 0.6rem;
+}
+.data-3 h6{
+    font-size: small;
+    color:rgb(22, 22, 22) ;
+    margin-left: 0.4rem;
+}
+.data-3 svg{
+    margin-left: 4.8rem;
+}
+.right-lower{
+    margin-top: 1rem;
+    height: 19rem;
+    border: 1px solid black;
+    background-color:white;
+    border-radius: 0.4rem;
+}
+.data-4{
+    display: flex;
+    margin-top: 0.6rem;
+}
+.data-4 h6{
+    font-size: 0.9rem;
+    color:rgb(22, 22, 22) ;
+    margin-left: 0.4rem;
+
+}
+.data-4 svg{
+    margin-left: 8.5rem;
+}
+.data-5{
+    display: flex;    
+}
+.data-5 img{
+    margin-top: 0.7rem;
+    height: 2.8rem;
+    margin-left: 0.3rem;
+}
+.data-5-1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.1rem;
+    margin-left: 0.2rem;
+   
+}
+.data-5-1 h6{
+    font-size: medium;
+    color: rgb(34, 32, 32);
+}
+.data-5-1 p{
+    font-size: small;
+    color: rgb(27, 25, 25);
+}
+.data-5-1 input{
+    margin-top: 0.2rem;
+    width: 5rem;
+    border: 1px solid rgb(26, 25, 25);
+    border-radius: 3rem;
+    text-align: center;
+    width: 9.3rem;
+    padding: 0.3rem;
+    margin-bottom: 0.4rem;
+   
+}
+.data-5 {
+    border-bottom: 1px solid black;
+}
+.data-6{
+    margin-top: 0.3rem;
+}
+
+
+
+
